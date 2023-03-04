@@ -40,11 +40,11 @@ function handleImageFullScreen(event) {
 	if (imgRef.nodeName !== "IMG") {
 		return;
 	}
-	// const instance = basicLightbox.create(`
-	//     <img src="${imgRef.dataset.source}" width="800" height="600">
-	// `);
+	const instance = basicLightbox.create(`
+	    <img src="${imgRef.dataset.source}" width="800" height="600">
+	`);
 
-	// instance.show();
+	instance.show();
 
 	console.log(event.target);
 }
